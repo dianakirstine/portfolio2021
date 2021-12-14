@@ -114,14 +114,14 @@ footer{
 @media screen and (min-width: 1000px) {
     
 
-    /* gemmer  burger menuens icon */
+/* gemmer  burger menuens icon */
   
     nav .fas{
         display: none;
     }
   
   
-  /*  navbarens links  */
+/*  navbarens links  */
   
   nav{
         display: flex;
@@ -129,7 +129,6 @@ footer{
          justify-content: space-between;
         align-items: center;
     }
-  
   
   
   .nav-links{
@@ -168,7 +167,6 @@ footer{
         font-size: 25px;
   
     }
-  
   
   
 }
