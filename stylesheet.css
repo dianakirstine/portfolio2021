@@ -191,4 +191,12 @@ footer{
     
     }
 
+
+    iframe{
+
+        display: flex;
+        float: left;
+        
+    }
+
 }
