@@ -21,6 +21,17 @@ h1:hover{
     transition: 1s;
 }
 
+.CV{
+    margin-left: 50%;
+    margin-right: 20%;
+}
+
+.cv p{
+    padding-top: 20px;
+}
+
+
+
 nav img{
     width: 150px;
     margin: 10px;
@@ -82,6 +93,8 @@ nav .fas{
 
 }
 
+/*  om mig sektion  */
+
 .text img{
     width: 50%;
     display:block;
@@ -99,15 +112,33 @@ nav .fas{
     text-align: center;
 }
 
-.cv-text{
+
+/*  CV sektion  */
+
+
+img{
+    width: 50%;
     display: flex;
-    text-align: right;
 
 }
 
-footer{
+.CV img{
+    width: 80%;
+
+}
+
+
+
+footer p{
     text-align: right;
-    padding: 1% 3% 1% 4%;
+    margin-right: 22px;
+}
+
+footer img{
+    display: inline-block;
+    justify-content: left;
+    width: 50px; 
+    padding: 3px;
 }
 
 
@@ -154,19 +185,52 @@ footer{
         position: relative;
   
     }
-  
+
+/*  om mig sektion  */
+
+    .text-about p{
+        display: flex;
+        margin-bottom: 3%;
+        padding-top: 8vh;
+        padding-bottom: 1%;
+    }
+
+
+
+   /* CV sektion */
   
   img{
         width: 48%;
         display: flex;
+        float: left;
     }
   
   
-  .text{
+  .text-about p{
         display: flex;
-        font-size: 25px;
+        margin-bottom: 1%;
+        padding-top: 8vh;
+        padding-bottom: 4%;
   
     }
+
+
+    .cv{
+        padding-top: 10vh;
+    }
+
+    .CV img{
+        width: 70%;
+        text-align: right;
+        margin-bottom: 3%;
+        position: absolute;
+        float: left;
+    }
   
+
+    footer{
+        padding-top: 70%;
+
+    }
   
 }
