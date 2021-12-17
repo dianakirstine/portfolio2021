@@ -75,6 +75,12 @@ nav{
     font-size: 20px;
 }
 
+h2{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 6%;
+}
+
 
 
 nav .fas{
@@ -85,6 +91,16 @@ nav .fas{
     cursor: pointer;
 
 }
+
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
 
 video{
     width: 100%;
@@ -164,13 +180,36 @@ footer{
 
     }
 
+
+/*  video styling (hr er stregen mellem tekst og content)  */
+
+    hr{
+        width:760px;
+        margin-left: 300px;
+        align-items: center;
+
+    }
+
+    img{
+        width: 30%; 
+        display: block;  
+    }
+    
+
     video{
         width: 60%;
         height: 70%;
         display: flex;
-        float: left;
-        
+        float: left;  
     }
+    
+    iframe{
+        display: flex;
+        float: left;
+    }
+
+
+/*  projekt beskrivelsens styling  */
 
     .text-assignment h2{
         display: block;
@@ -189,14 +228,6 @@ footer{
         text-align: left;
         margin-bottom: 3%;
     
-    }
-
-
-    iframe{
-
-        display: flex;
-        float: left;
-        
     }
 
 }
