@@ -115,9 +115,11 @@ nav .fas{
 
 .welcome{
     display: block;
-    background-image: url(img/nfade.jpg);
-    background-position:initial;
-    margin-top: 5vh;
+    background-image: url(img/nbg.png);
+    min-height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     text-align: center;
     padding-top: 100px;
 
@@ -239,7 +241,7 @@ footer img{
 
     .welcome img{
         display: flex;
-        background-image: url(img/nfaded.jpg);
+        background-image: url(img/nbg.png);
         margin-top: 10vh;
     }
 
@@ -247,6 +249,7 @@ footer img{
     .button{
         border: 1px solid #DDC3F0;
         background: transparent;
+        
     }
     
 

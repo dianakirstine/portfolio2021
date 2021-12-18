@@ -21,15 +21,6 @@ h1:hover{
     transition: 1s;
 }
 
-.CV{
-    margin-left: 50%;
-    margin-right: 20%;
-}
-
-.cv p{
-    padding-top: 20px;
-}
-
 
 
 nav img{
@@ -95,7 +86,7 @@ nav .fas{
 
 /*  om mig sektion  */
 
-.text img{
+.text-about img{
     width: 50%;
     display:block;
     margin-left: auto;
@@ -104,26 +95,28 @@ nav .fas{
     
 }
 
+h2{
+    padding-bottom: 6%;
+    font-size: 22px;
+    text-align: center;
+}
 
-.text{
-    padding-top: 5%;
-    padding-bottom: 5%;
+.text-about p{
+    font-size: 13px;
+    padding-bottom: 6%;
     display:inline-block;
     text-align: center;
 }
 
 
-/*  CV sektion  */
+/*  CV sektion (png) */
 
 
 img{
-    width: 50%;
-    display: flex;
-
-}
-
-.CV img{
     width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -190,10 +183,15 @@ footer img{
 
     .text-about p{
         display: flex;
-        margin-bottom: 3%;
-        padding-top: 8vh;
+        margin-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2vh;
         padding-bottom: 1%;
+        font-size: 18px;
     }
+
+    
 
 
 
@@ -205,27 +203,13 @@ footer img{
         float: left;
     }
   
-  
-  .text-about p{
-        display: flex;
-        margin-bottom: 1%;
-        padding-top: 8vh;
-        padding-bottom: 4%;
-  
-    }
 
 
     .cv{
-        padding-top: 10vh;
+        padding-top: 5vh;
     }
 
-    .CV img{
-        width: 70%;
-        text-align: right;
-        margin-bottom: 3%;
-        position: absolute;
-        float: left;
-    }
+
   
 
     footer{
