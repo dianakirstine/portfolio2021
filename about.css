@@ -30,7 +30,8 @@ nav img{
 
 /*  burger menu til mobil format  */
 
-/* nav baren fejler lidt på Safari, men er velfungerende på Google chrome */
+/* nav baren fejler og viser en scroll funktion, som har drillet mig enormt meget (!!!) og har simpelthen ikke kunne fikse
+vil rette på dette, også til fremtidige projekter */
 
 html, body {overflow-x: hidden;
 }
@@ -213,7 +214,6 @@ footer img{
     }
 
 
-  
 
     footer{
         padding-top: 70%;

@@ -187,15 +187,5 @@ footer img{
 
     }
 
-    footer p{
-        text-align: right;
-        margin-right: 12px;
-    }
-    
-    footer img{
-        display: inline-block;
-        float: left;
-        padding: 3px;
-    }
     
 }
