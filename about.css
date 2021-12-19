@@ -30,6 +30,8 @@ nav img{
 
 /*  burger menu til mobil format  */
 
+/* nav baren fejler lidt på Safari, men er velfungerende på Google chrome */
+
 html, body {overflow-x: hidden;
 }
 
@@ -65,6 +67,7 @@ nav{
     margin-right: 10%;
     padding: 8px 12px;
     position: relative;
+    padding-bottom: 20%
 }
 
 .nav-links ul li a{
@@ -87,7 +90,7 @@ nav .fas{
 /*  om mig sektion  */
 
 .text-about img{
-    width: 50%;
+    width: 45%;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -121,10 +124,10 @@ img{
 }
 
 
-
 footer p{
     text-align: right;
     margin-right: 22px;
+    font-size: 10px;
 }
 
 footer img{

@@ -66,6 +66,7 @@ nav{
     font-size: 20px;
     padding: 8px 12px;
     position: relative;
+    padding-bottom: 20%
 }
 
 .nav-links ul li a{
@@ -113,6 +114,7 @@ nav .fas{
 footer p{
     text-align: right;
     margin-right: 22px;
+    font-size: 10px;
 }
 
 footer img{
@@ -187,7 +189,7 @@ footer img{
 
     footer p{
         text-align: right;
-        margin-right: 22px;
+        margin-right: 12px;
     }
     
     footer img{

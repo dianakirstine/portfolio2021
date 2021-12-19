@@ -63,11 +63,12 @@ nav{
 }
 
 .nav-links ul li{
-    list-style: none;
     display: inline-block;
+    margin-right: 10%;
     font-size: 20px;
     padding: 8px 12px;
     position: relative;
+    padding-bottom: 20%;
 }
 
 .nav-links ul li a{
@@ -138,7 +139,7 @@ footer{
 footer p{
     text-align: right;
     margin-right: 22px;
-    padding-bottom: -3px;
+    font-size: 10px;
 }
 
 footer img{
@@ -220,6 +221,7 @@ section .text-assignment{
     iframe{
         display: flex;
         float: left;
+        
     }
 
 
